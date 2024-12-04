@@ -1,0 +1,5 @@
+SCMT-main/trained_pth/**/*.pth filter=lfs diff=lfs merge=lfs -text
+SCMT-main/trained_pth/**/*.pt filter=lfs diff=lfs merge=lfs -text
+SCMT-main/trained_pth/**/*.ckpt filter=lfs diff=lfs merge=lfs -text
+SCMT-main/trained_pth/**/*.bin filter=lfs diff=lfs merge=lfs -text
+SCMT-main/trained_pth/**/*.model filter=lfs diff=lfs merge=lfs -text
